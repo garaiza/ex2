@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Reenie+Beanie);
+/*Paper Texture from http://www.demilked.com/free-paper-textures-backgrounds/*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: verdana;
+    size: 14px;
+    color: #ceaaba;
+    padding: 24px;
+    background-color: #1c0e0e;
+}
+u {
+    color: firebrick;
+    font-style: bold;
+}
+form input {
+    margin: 10px 6px;
+    padding: 10px;
+    background-color: #3c3234;
+    color: white;
+    font-size: 14px;
+    float: left;
+}
+form input[type="submit"] {
+    color: red;
+    float: right;
+}
+form input[type="reset"] {
+    float: right;
+}
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #8a8180;
+}
+fieldset {
+    width: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 24px;
+    align-content: center;
+    background-color: #251e1f;
+}
+label {
+    text-align: right;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.title h1 {
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    width: 80%;
+    padding: 24px;
+    background-color: #5f1f2c;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#myMsg h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    color: firebrick;
+}
+.hide {
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+}
+.form {
+    width: 50%;
+    align-content: center;
+    background-color: #aa5cd3;
+    align-content: center;
+    padding: 10%;
+}
+.container {
+    width: 40%;
+    float: left;
+    clear: both;
+}
+.container2 {
+    width: 40%;
+    float: left;
+    padding: 24px;
+    clear: both;
+}
+p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
+    color: #330101;
+}
+#myMsg {
+    float: right;
+    background-color: orange;
+    background-image: url('../images/paper.jpg');
+    background-attachment: fixed;
+    width: 40%;
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
