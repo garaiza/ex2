@@ -2,7 +2,7 @@
 /*Paper Texture from http://www.demilked.com/free-paper-textures-backgrounds/*/
 * {
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 50px;
 }
 body {
     font-family: verdana;
@@ -10,6 +10,7 @@ body {
     color: #ceaaba;
     padding: 24px;
     background-color: #1c0e0e;
+    
 }
 u {
     color: firebrick;
