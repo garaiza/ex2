@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Homemade+Apple|Reenie+Beanie);
+
 /*Paper Texture from http://www.demilked.com/free-paper-textures-backgrounds/*/
+
 * {
     margin: 0px;
     padding-bottom: 50px;
@@ -10,7 +12,6 @@ body {
     color: #ceaaba;
     padding: 24px;
     background-color: #1c0e0e;
-    
 }
 u {
     color: firebrick;
@@ -105,4 +106,20 @@ p {
     padding: 20px;
     margin-left: 2%;
     margin-right: 2%;
+}
+footer {
+    width: 100%;
+    height: 30px;
+    clear: left;
+    position: relative;
+    text-align: center;
+    border-top: #5f1f2c dashed 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer a {
+    font-family: 'Verdana';
+    font-size: 12px;
+    color: #a2a2a2;
+    text-decoration: none;
 }
