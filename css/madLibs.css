@@ -8,14 +8,13 @@
 }
 body {
     font-family: verdana;
-    size: 14px;
+    font-size: 14px;
     color: #ceaaba;
     padding: 24px;
     background-color: #1c0e0e;
 }
 u {
     color: firebrick;
-    font-style: bold;
 }
 form input {
     margin: 10px 6px;
@@ -122,4 +121,13 @@ footer a {
     font-size: 12px;
     color: #a2a2a2;
     text-decoration: none;
+}
+.container h2{
+    visibility: hidden;
+    margin: 0px;
+    font-size: 0px;
+}
+
+.hide h2{
+    visibility: hidden;
 }
